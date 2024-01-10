@@ -1,0 +1,349 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: #e3e6f7;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background-color: transparent;
+    background: transparent;
+}
+
+#navbar li a:hover{
+    color: purple;
+    background-color: transparent;
+    background: transparent;
+}
+
+#home-deco{
+    background-image: url("/img/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    background-color:rgba(207,159,255,1);;
+}
+
+#home-deco h4{
+    padding-bottom: 15px;
+    background-color: transparent;
+}
+
+#home-deco h1{
+    color: #CF9999;
+    background-color: transparent;
+}
+
+#home-deco h2{
+    background-color: transparent;
+}
+
+#home-deco p{
+    background-color: transparent;
+}
+
+#home-deco button{
+    background-color: white;  
+    color: pink;
+    border: 0;
+}
+
+#features{
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#features .featurebox{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 40px black;
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+    background-color: #e3e6f7;
+}
+
+#features .featurebox:hover{
+    box-shadow: 10px 10px 40px blueviolet;
+}
+
+#features .featurebox h6{
+    display: inline-block;
+    padding: 10px 9px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: blueviolet;
+}
+
+#products{
+    text-align: center;
+}
+
+#products .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#products .pro{
+    width: 30%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#products .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#products .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#products .pro.des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#products .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#products .pro .des .h5{
+    padding-top: 7px;
+    color:black;
+    font-size: 14px;
+}
+
+#products .pro .des .h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #CF9999;
+}
+
+#products .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 0px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: green;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/img/banner/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color: white;
+    font-size: 16px;
+}
+
+#banner h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner button:hover{
+    background: #088178;
+    color: white;
+}
+
+#notifications{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(/img/banner/b14.png);
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#notifications h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+#notifications p{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+#notifications input{
+    height: 2rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#notifications button{
+    background-color: #088178;
+    color: white;
+    white-space: nowrap;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    color: black;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer .contact{
+    margin-top: 20px;
+}
+
+#footer_design{
+    padding: 40px 80px;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails{
+    display: flex;
+    margin-top: 20;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+    padding: 40px 0px 20px 0px;
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    background: #088178;
+    color: white;
+}
